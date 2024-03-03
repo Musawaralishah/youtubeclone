@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+      .div-box,
+      .div-box2,
+      .div-box3{
+        border: solid black 2px;
+        width: 290px;
+        vertical-align: top;
+        padding-bottom: 10px;
+      }
+
+      .image-my,
+      .add-friend,
+      .friend-stats,
+      .p1-name{
+        margin-left: 10px;
+      }
+
+      .image-my{
+        width: 250px;
+        vertical-align: top;
+      }
+
+      .p1-name{
+        font-weight: bold;
+        font-family: arial;
+        vertical-align: top;
+      }
+
+      .friend-stats{
+        font-family: arial;
+        font-size: 14px;
+        color: gray;
+        vertical-align: top;
+      }
+
+      .add-friend{
+        font-family: arial;
+        background-color: rgb(17, 115, 253);
+        color: white;
+        border: none;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        vertical-align: top;
+      }
+
+      .profile-picture{
+        border-radius: 20px;
+        width: 30px;
+        margin-left: 5px;
+        margin-top: 5px;  
+      }
+
+      .profile-friends{
+        
+      }
+      .grid-class{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-class">
+      <div class="div-box">
+        <div>
+          <img class="image-my" src="thumbnails/thumbnail-1.webp">
+        </div>
+      <div>
+        <div>
+          <p class="p1-name">
+            Oliver
+          </p>
+        </div>
+        <div class="profile-friends">
+          <img class="profile-picture" src="channel logo/channel-1.jpeg">
+          <p class="friend-stats">
+            2 mutual friends
+          </p>
+        </div>
+        <div>
+          <button class="add-friend">
+            Add friend
+          </button>  
+        </div>
+      </div>
+    </div> 
+
+    <div class="div-box2">
+      <div>
+        <img class="image-my" src="thumbnails/thumbnail-2.webp">
+      </div>
+      <div>
+        <div>
+          <p class="p1-name">
+            mussi
+          </p>
+        </div>
+        <div class="profile-friends">
+          <img class="profile-picture" src="channel logo/channel-1.jpeg">
+        <p class="friend-stats">
+          5 mutual friends
+        </p>
+        </div>
+        <div>
+          <button class="add-friend">
+            Add friend
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="div-box3">
+      <div>
+        <img class="image-my" src="thumbnails/thumbnail-3.webp">
+      </div>
+      <div>
+        <div>
+          <p class="p1-name">
+            Sabir
+          </p>
+        </div>
+        <div class="profile-friends">
+          <img class="profile-picture" src="channel logo/channel-1.jpeg">
+        <p class="friend-stats">
+          10 mutual friends
+        </p>
+        </div>
+        <div>
+          <button class="add-friend">
+            Add friend
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+      
+  </body>
+</html>

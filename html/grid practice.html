@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>grid practice</title>
+    <style>
+      {
+        background-color: lightblue;
+      }
+      .first-column,
+      .second-column,
+      .third-column,
+      .forth-column{
+        background-color: lightpink;
+      }
+      .grid-style{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 150px;
+        
+      }
+       
+    </style>
+  </head>
+  <body>
+    <div class="grid-style">
+      <div class="first-column">col1</div>
+      <div class="second-column">col2</div>
+      <div class="third-column">col3</div>
+      <div class="forth-column">col4</div>
+    </div>
+
+    <div class="grid-style">
+      <div class="first-column">col1</div>
+      <div class="second-column">col2</div>
+      <div class="third-column">col3</div>
+      <div class="forth-column">col4</div>
+    </div>
+    
+  </body> 
+</html>
